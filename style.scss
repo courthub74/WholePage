@@ -896,7 +896,7 @@ $firstblue: #58a6ff;
 }
 
 // Mobile Landscapes
-@media screen and (min-width: 820px) and (max-width: 1023px) {
+@media screen and (min-width: 820px) and (max-width: 911px) {
     .home_section {
         background-color: $darkblue;
         height: 100vh;
@@ -1107,6 +1107,26 @@ $firstblue: #58a6ff;
                 }
             }
         }
+    }
+}
+
+// 912px
+@media screen and (min-width: 912px) and (max-width: 1023px) {
+    // HOME
+    .home_section {
+        background-color: $darkblue;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    // SKILLS
+    .skills_section {
+        background-color: $nextgreen;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 
@@ -1872,6 +1892,491 @@ $firstblue: #58a6ff;
                         color: white;
                         font-family: 'Inter', sans-serif;
                         font-size: clamp(1rem, 1.3rem, 2rem);
+                        // font-weight: bold;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+    // SKILLS
+    .skills_section {
+        background-color: $nextgreen;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .big_circle {
+            width: 50vw;
+            height: 50vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 0 0 0 3vw;
+            .big_skills {
+                border-radius: 50%;
+                background-color: $darkblue;
+                color: white;
+                width: 25vw;
+                height: 25vw;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 2vh;
+                font-family: 'Inter', sans-serif;
+                font-size: clamp(2rem, 2.5rem, 4rem);
+            }
+        }
+        .skill_circles {
+            container-type: inline-size;
+            font-family: 'Inter', sans-serif;
+            font-weight: bold;
+            font-size: clamp(1rem, 2rem, 3rem);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            // background-color: #00C6C3;
+            width: 100%;
+            // when it's small
+            // when big etch these out
+            // flex-direction: column;
+            gap: .5ch;
+            margin-left: -4vw;
+            // first 6
+            .first_six {
+                display: flex;
+                flex-direction: column;
+                gap: .5ch;
+                // first 3
+                .first_three {
+                    display: flex;
+                    gap: .5ch;
+                    .back_circle {
+                        background-color: $jobdescription;
+                        background-color: $skillsteal;
+                        width: 9vw;
+                        height: 9vw;
+                        border-radius: 50%;
+                        border: 3px solid $darkblue;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        .front_circle {
+                           background-color: $darkblue;
+                           width: 8vw;
+                           height: 8vw;
+                           border-radius: 50%;
+                           display: flex;
+                           justify-content: center;
+                           align-items: center;
+                        }
+                    }
+                }
+                // second 3
+                .second_three {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: .5ch;
+                    .back_circle {
+                        background-color: $jobdescription;
+                        background-color: $skillsteal;
+                        width: 9vw;
+                        height: 9vw;
+                        border-radius: 50%;
+                        border: 3px solid $darkblue;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        .front_circle {
+                           background-color: $darkblue;
+                           width: 8vw;
+                           height: 8vw;
+                           border-radius: 50%;
+                           display: flex;
+                           justify-content: center;
+                           align-items: center;
+                        }
+                    }
+                }
+            }
+            // second 6
+            .second_six {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                gap: .5ch;
+                // third 3
+                .third_three {
+                    display: flex;
+                    gap: .5ch;
+                    .back_circle {
+                        background-color: $jobdescription;
+                        background-color: $skillsteal;
+                        width: 9vw;
+                        height: 9vw;
+                        border-radius: 50%;
+                        border: 3px solid $darkblue;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        .front_circle {
+                           background-color: $darkblue;
+                           width: 8vw;
+                           height: 8vw;
+                           border-radius: 50%;
+                           display: flex;
+                           justify-content: center;
+                           align-items: center;
+                        }
+                    }
+                }
+                // third 4
+                .fourth_three {
+                    display: flex;
+                    gap: .5ch;
+                    .back_circle {
+                        background-color: $jobdescription;
+                        background-color: $skillsteal;
+                        width: 9vw;
+                        height: 9vw;
+                        border-radius: 50%;
+                        border: 3px solid $darkblue;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        .front_circle {
+                           background-color: $darkblue;
+                           width: 8vw;
+                           height: 8vw;
+                           border-radius: 50%;
+                           display: flex;
+                           justify-content: center;
+                           align-items: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Bigger Desktop Monitors
+@media screen and (min-width: 1301px) and (max-width: 1336px) {
+    // HOME
+    .home_section {
+        background-color: $darkblue;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .home_content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 25ch;
+            .headshot {
+                width: 28vw;
+                height: 28vw;
+                border-radius: 50%;
+                background-color: slategray;
+                background-color: #00C6C3;
+                color: $darkblue;
+                font-family: 'Inter', sans-serif;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0 0 2ch 0;
+            }
+            .home_words {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 5ch;
+                .name_description {
+                    display: flex;
+                    flex-direction: column;
+                    gap: .3ch;
+                    .name_name {
+                        color: white;
+                        font-family: 'Inter', sans-serif;
+                        font-size: clamp(1rem, 2.3rem, 4rem);
+                        font-weight: bold;
+                    }
+                    .job_description {
+                        border: 1px solid $portfolios;
+                        border-radius: 5px;
+                        background-color: $portfolios;
+                        color: $jobdescription;
+                        font-family: 'Inter', sans-serif;
+                        font-size: clamp(1rem, 1.5rem, 2rem);
+                        text-align: center;
+                        padding: 1ch;
+                    }
+                }
+                .slogan {
+                    font-family: 'Inter', sans-serif;
+                    font-size: clamp(1rem, 1.5rem, 2rem);
+                    color: white;
+                    text-align: center;
+                    font-weight: bold;
+                }
+                .learn_more {
+                    border: 1px solid $portfolios;
+                    border-radius: 5px;
+                    background-color: $portfolios;
+                    padding: 1ch 8ch;
+                    a {
+                        color: white;
+                        font-family: 'Inter', sans-serif;
+                        font-size: clamp(1rem, 1.3rem, 2rem);
+                        // font-weight: bold;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+    // SKILLS
+    .skills_section {
+        background-color: $nextgreen;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .big_circle {
+            width: 50vw;
+            height: 50vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 0 0 0 3vw;
+            .big_skills {
+                border-radius: 50%;
+                background-color: $darkblue;
+                color: white;
+                width: 25vw;
+                height: 25vw;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 2vh;
+                font-family: 'Inter', sans-serif;
+                font-size: clamp(2rem, 2.5rem, 4rem);
+            }
+        }
+        .skill_circles {
+            container-type: inline-size;
+            font-family: 'Inter', sans-serif;
+            font-weight: bold;
+            font-size: clamp(1rem, 2rem, 3rem);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            // background-color: #00C6C3;
+            width: 100%;
+            // when it's small
+            // when big etch these out
+            // flex-direction: column;
+            gap: .5ch;
+            margin-left: -4vw;
+            // first 6
+            .first_six {
+                display: flex;
+                flex-direction: column;
+                gap: .5ch;
+                // first 3
+                .first_three {
+                    display: flex;
+                    gap: .5ch;
+                    .back_circle {
+                        background-color: $jobdescription;
+                        background-color: $skillsteal;
+                        width: 9vw;
+                        height: 9vw;
+                        border-radius: 50%;
+                        border: 3px solid $darkblue;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        .front_circle {
+                           background-color: $darkblue;
+                           width: 8vw;
+                           height: 8vw;
+                           border-radius: 50%;
+                           display: flex;
+                           justify-content: center;
+                           align-items: center;
+                        }
+                    }
+                }
+                // second 3
+                .second_three {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: .5ch;
+                    .back_circle {
+                        background-color: $jobdescription;
+                        background-color: $skillsteal;
+                        width: 9vw;
+                        height: 9vw;
+                        border-radius: 50%;
+                        border: 3px solid $darkblue;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        .front_circle {
+                           background-color: $darkblue;
+                           width: 8vw;
+                           height: 8vw;
+                           border-radius: 50%;
+                           display: flex;
+                           justify-content: center;
+                           align-items: center;
+                        }
+                    }
+                }
+            }
+            // second 6
+            .second_six {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                gap: .5ch;
+                // third 3
+                .third_three {
+                    display: flex;
+                    gap: .5ch;
+                    .back_circle {
+                        background-color: $jobdescription;
+                        background-color: $skillsteal;
+                        width: 9vw;
+                        height: 9vw;
+                        border-radius: 50%;
+                        border: 3px solid $darkblue;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        .front_circle {
+                           background-color: $darkblue;
+                           width: 8vw;
+                           height: 8vw;
+                           border-radius: 50%;
+                           display: flex;
+                           justify-content: center;
+                           align-items: center;
+                        }
+                    }
+                }
+                // third 4
+                .fourth_three {
+                    display: flex;
+                    gap: .5ch;
+                    .back_circle {
+                        background-color: $jobdescription;
+                        background-color: $skillsteal;
+                        width: 9vw;
+                        height: 9vw;
+                        border-radius: 50%;
+                        border: 3px solid $darkblue;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        .front_circle {
+                           background-color: $darkblue;
+                           width: 8vw;
+                           height: 8vw;
+                           border-radius: 50%;
+                           display: flex;
+                           justify-content: center;
+                           align-items: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Largest Screens
+@media screen and (min-width: 1337px) {
+    .home_section {
+        background-color: $darkblue;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .home_content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 45ch;
+            .headshot {
+                width: 24vw;
+                height: 24vw;
+                border-radius: 50%;
+                background-color: slategray;
+                background-color: #00C6C3;
+                color: $darkblue;
+                font-family: 'Inter', sans-serif;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0 0 2ch 0;
+            }
+            .home_words {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 5ch;
+                .name_description {
+                    display: flex;
+                    flex-direction: column;
+                    gap: .3ch;
+                    .name_name {
+                        color: white;
+                        font-family: 'Inter', sans-serif;
+                        font-size: clamp(1rem, 3.5rem, 4rem);
+                        font-weight: bold;
+                    }
+                    .job_description {
+                        border: 1px solid $portfolios;
+                        border-radius: 5px;
+                        background-color: $portfolios;
+                        color: $jobdescription;
+                        font-family: 'Inter', sans-serif;
+                        font-size: clamp(1rem, 2.8rem, 2rem);
+                        text-align: center;
+                        padding: 1ch;
+                    }
+                }
+                .slogan {
+                    font-family: 'Inter', sans-serif;
+                    font-size: clamp(1rem, 2rem, 2rem);
+                    color: white;
+                    text-align: center;
+                    font-weight: bold;
+                }
+                .learn_more {
+                    border: 1px solid $portfolios;
+                    border-radius: 5px;
+                    background-color: $portfolios;
+                    padding: 1ch 12ch;
+                    a {
+                        color: white;
+                        font-family: 'Inter', sans-serif;
+                        font-size: clamp(1rem, 1.8rem, 2rem);
                         // font-weight: bold;
                         text-decoration: none;
                     }
