@@ -1667,7 +1667,7 @@
     align-items: center;
   }
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1280px) and (max-width: 1300px) {
   .home_section {
     background-color: #080E2F;
     height: 100vh;
@@ -1744,6 +1744,152 @@
   .skills_section {
     background-color: #00313E;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .skills_section .big_circle {
+    width: 50vw;
+    height: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 0 3vw;
+  }
+  .skills_section .big_circle .big_skills {
+    border-radius: 50%;
+    background-color: #080E2F;
+    color: white;
+    width: 25vw;
+    height: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+    font-family: "Inter", sans-serif;
+    font-size: 2.5rem;
+  }
+  .skills_section .skill_circles {
+    container-type: inline-size;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 0.5ch;
+    margin-left: -4vw;
+  }
+  .skills_section .skill_circles .first_six {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5ch;
+  }
+  .skills_section .skill_circles .first_six .first_three {
+    display: flex;
+    gap: 0.5ch;
+  }
+  .skills_section .skill_circles .first_six .first_three .back_circle {
+    background-color: #00C6C3;
+    background-color: #146166;
+    width: 9vw;
+    height: 9vw;
+    border-radius: 50%;
+    border: 3px solid #080E2F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .skills_section .skill_circles .first_six .first_three .back_circle .front_circle {
+    background-color: #080E2F;
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .skills_section .skill_circles .first_six .second_three {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5ch;
+  }
+  .skills_section .skill_circles .first_six .second_three .back_circle {
+    background-color: #00C6C3;
+    background-color: #146166;
+    width: 9vw;
+    height: 9vw;
+    border-radius: 50%;
+    border: 3px solid #080E2F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .skills_section .skill_circles .first_six .second_three .back_circle .front_circle {
+    background-color: #080E2F;
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .skills_section .skill_circles .second_six {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5ch;
+  }
+  .skills_section .skill_circles .second_six .third_three {
+    display: flex;
+    gap: 0.5ch;
+  }
+  .skills_section .skill_circles .second_six .third_three .back_circle {
+    background-color: #00C6C3;
+    background-color: #146166;
+    width: 9vw;
+    height: 9vw;
+    border-radius: 50%;
+    border: 3px solid #080E2F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .skills_section .skill_circles .second_six .third_three .back_circle .front_circle {
+    background-color: #080E2F;
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .skills_section .skill_circles .second_six .fourth_three {
+    display: flex;
+    gap: 0.5ch;
+  }
+  .skills_section .skill_circles .second_six .fourth_three .back_circle {
+    background-color: #00C6C3;
+    background-color: #146166;
+    width: 9vw;
+    height: 9vw;
+    border-radius: 50%;
+    border: 3px solid #080E2F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .skills_section .skill_circles .second_six .fourth_three .back_circle .front_circle {
+    background-color: #080E2F;
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
